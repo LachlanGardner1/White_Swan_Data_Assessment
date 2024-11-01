@@ -11,15 +11,21 @@ import logging.config
 import yaml
 import traceback
 from time import sleep
-
+import argparse
+from datetime import datetime, timedelta
 
 #Update chromdriver path to relevant operating system if necessary
 driver_path = 'driver/chromedriver-win64.exe'
-url = 'https://www.swiftbet.com.au/racing'
 service = Service(executable_path=driver_path)
 options = webdriver.ChromeOptions()
 options.add_argument("log-level=3")
 driver = webdriver.Chrome(options=options, service=service)
+
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("date", help="Enter either today or tomorrow", choices=['today', 'tomorrow'])
+    args = parser.parse_args()
+    return args
 
 def get_logger(config):
     logging.config.dictConfig(config)
@@ -33,25 +39,28 @@ def check_price(price):
         return 'N/A'
     return price
 
-def main(logger):
+def main(logger, args):
     try:
         logger.info("Begin Bot Automation")
-        #read races data csv
-        races_df = pd.read_csv('data/races_data.csv')
+        
+        #select url and read races data csv based on date selection
+        url = 'https://www.swiftbet.com.au/racing'
+        if args.date == "tomorrow":
+            tomorrows_date = datetime.today().date() + timedelta(days=1)
+            url = f"{url}/all/{tomorrows_date}"
+        
+        races_df = pd.read_csv(f'data/races_data_{args.date}.csv')
         
         #select random row
         random_row = randint(0, len(races_df.index))
         selected_row = races_df.iloc[random_row]
 
-        #get track name and number
+        #get track name and number and race type to determine where to click
         track_name = selected_row['Track Name'].split(" ")
         track_name = track_name[:-1]
-        # track_name = "-".join(track_name).lower()
-        # race_number = selected_row['Race Number']
-        track_name = 'the-gardens'
-        race_number = '12'
-        # race_type = selected_row['Race URL'].split("racing/")[1].split("/")[0]
-        race_type = 'greyhounds'
+        track_name = "-".join(track_name).lower()
+        race_number = selected_row['Race Number']
+        race_type = selected_row['Race URL'].split("racing/")[1].split("/")[0]
         logging.info(f"Clicking on randomly selected race track: {track_name}, race number: {race_number}, race type: {race_type}")
 
         all_racers = []
@@ -123,7 +132,8 @@ if __name__ == '__main__':
             config=yaml.safe_load(f.read())
     logger = get_logger(config)
     try:
-        main(logger)
+        args = parse_args()
+        main(logger, args)
     except Exception as e:
         logging.error(traceback.format_exc())
         logger.error(e)

@@ -9,15 +9,22 @@ import logging
 import logging.config
 import yaml
 import traceback
+import argparse
+from datetime import datetime, timedelta
 
 
 #Update chromdriver path to relevant operating system if necessary
 driver_path = 'driver/chromedriver-win64.exe'
-url = 'https://www.swiftbet.com.au/racing'
 service = Service(executable_path=driver_path)
 options = webdriver.ChromeOptions()
 options.add_argument("log-level=3")
 driver = webdriver.Chrome(options=options, service=service)
+
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("date", help="Enter either today or tomorrow", choices=['today', 'tomorrow'])
+    args = parser.parse_args()
+    return args
 
 def get_logger(config):
     logging.config.dictConfig(config)
@@ -28,16 +35,20 @@ def define_race(current_race, race_number, url, race_time):
     #Common method to add race_number, url and race_time to current_race
     current_race["Race Number"] = race_number
     current_race["Race URL"] = url
-    current_race["Race Time"] = race_time
+    current_race["Race Start"] = race_time
     return current_race
 
-def main(logger):
+def main(logger, args):
     try:
         logger.info("Begin Data Scraping")
-
+        url = 'https://www.swiftbet.com.au/racing'
+        if args.date == "tomorrow":
+            tomorrows_date = datetime.today().date() + timedelta(days=1)
+            url = f"{url}/all/{tomorrows_date}"
         #Open URL and wait for presence of track names
         try:
             driver.get(url)
+            driver.maximize_window()
             WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.CLASS_NAME, "e17e4d890.exx10s30.css-lz7t06-Text-Text-Link-Link-MeetingItem-MeetingItem__MeetingName-MeetingItem.ea6hjv30")))
         except TimeoutException as e:
             logger.error(e)
@@ -82,7 +93,7 @@ def main(logger):
         if races_list != []:
             #Transform races_list to dataframe and export to CSV as race_data.csv
             df_races_data = pd.DataFrame(races_list)
-            df_races_data.to_csv('data/races_data.csv', index=False)
+            df_races_data.to_csv(f'data/races_data_{args.date}.csv', index=False)
 
             logger.info("Races data retrieved and stored into races_data.csv")
         driver.quit()
@@ -98,7 +109,8 @@ if __name__ == '__main__':
             config=yaml.safe_load(f.read())
     logger = get_logger(config)
     try:
-        main(logger)        
+        args = parse_args()
+        main(logger, args)        
     except Exception as e:
         logging.error(traceback.format_exc())
         logger.error(e)

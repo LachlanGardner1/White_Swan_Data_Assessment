@@ -1,4 +1,4 @@
-Track Name,Race Number,Race URL,Race Time
+Track Name,Race Number,Race URL,Race Start
 MOONEE VALLEY (VIC),1,https://swiftbet.com.au//racing/gallops/moonee-valley/race-1-1902985-1083021,Race Completed
 MOONEE VALLEY (VIC),2,https://swiftbet.com.au//racing/gallops/moonee-valley/race-2-1902988-1083021,Race Completed
 MOONEE VALLEY (VIC),3,https://swiftbet.com.au//racing/gallops/moonee-valley/race-3-1902994-1083021,Race Completed
@@ -52,6 +52,17 @@ ASCOT PARK (NZL),3,https://swiftbet.com.au//racing/gallops/ascot-park/race-3-190
 ASCOT PARK (NZL),4,https://swiftbet.com.au//racing/gallops/ascot-park/race-4-1901451-1082897,Race Completed
 ASCOT PARK (NZL),5,https://swiftbet.com.au//racing/gallops/ascot-park/race-5-1901462-1082897,Race Completed
 ASCOT PARK (NZL),6,https://swiftbet.com.au//racing/gallops/ascot-park/race-6-1901470-1082897,Race Completed
+MANDURAH (WA),1,https://swiftbet.com.au//racing/greyhounds/mandurah/race-1-1901842-1082945,Race Completed
+MANDURAH (WA),2,https://swiftbet.com.au//racing/greyhounds/mandurah/race-2-1901852-1082945,Race Completed
+MANDURAH (WA),3,https://swiftbet.com.au//racing/greyhounds/mandurah/race-3-1901864-1082945,Race Completed
+MANDURAH (WA),4,https://swiftbet.com.au//racing/greyhounds/mandurah/race-4-1901878-1082945,Race Completed
+MANDURAH (WA),5,https://swiftbet.com.au//racing/greyhounds/mandurah/race-5-1901889-1082945,Race Completed
+MANDURAH (WA),6,https://swiftbet.com.au//racing/greyhounds/mandurah/race-6-1901902-1082945,Race Completed
+MANDURAH (WA),7,https://swiftbet.com.au//racing/greyhounds/mandurah/race-7-1901912-1082945,4m 46s
+MANDURAH (WA),8,https://swiftbet.com.au//racing/greyhounds/mandurah/race-8-1901920-1082945,27m
+MANDURAH (WA),9,https://swiftbet.com.au//racing/greyhounds/mandurah/race-9-1901925-1082945,46m
+MANDURAH (WA),10,https://swiftbet.com.au//racing/greyhounds/mandurah/race-10-1901928-1082945,1h 2m
+MANDURAH (WA),11,https://swiftbet.com.au//racing/greyhounds/mandurah/race-11-1901931-1082945,1h 24m
 GEELONG (VIC),1,https://swiftbet.com.au//racing/greyhounds/geelong/race-1-1902835-1083009,Race Completed
 GEELONG (VIC),2,https://swiftbet.com.au//racing/greyhounds/geelong/race-2-1902839-1083009,Race Completed
 GEELONG (VIC),3,https://swiftbet.com.au//racing/greyhounds/geelong/race-3-1902840-1083009,Race Completed
@@ -63,42 +74,7 @@ GEELONG (VIC),8,https://swiftbet.com.au//racing/greyhounds/geelong/race-8-190285
 GEELONG (VIC),9,https://swiftbet.com.au//racing/greyhounds/geelong/race-9-1902860-1083009,Race Completed
 GEELONG (VIC),10,https://swiftbet.com.au//racing/greyhounds/geelong/race-10-1902867-1083009,Race Completed
 GEELONG (VIC),11,https://swiftbet.com.au//racing/greyhounds/geelong/race-11-1902874-1083009,Race Completed
-GEELONG (VIC),12,https://swiftbet.com.au//racing/greyhounds/geelong/race-12-1902880-1083009,11m
-SHEPPARTON (VIC),1,https://swiftbet.com.au//racing/greyhounds/shepparton/race-1-1903172-1083043,Race Completed
-SHEPPARTON (VIC),2,https://swiftbet.com.au//racing/greyhounds/shepparton/race-2-1903180-1083043,Race Completed
-SHEPPARTON (VIC),3,https://swiftbet.com.au//racing/greyhounds/shepparton/race-3-1903188-1083043,Race Completed
-SHEPPARTON (VIC),4,https://swiftbet.com.au//racing/greyhounds/shepparton/race-4-1903198-1083043,Race Completed
-SHEPPARTON (VIC),5,https://swiftbet.com.au//racing/greyhounds/shepparton/race-5-1903205-1083043,Race Completed
-SHEPPARTON (VIC),6,https://swiftbet.com.au//racing/greyhounds/shepparton/race-6-1903209-1083043,Race Completed
-SHEPPARTON (VIC),7,https://swiftbet.com.au//racing/greyhounds/shepparton/race-7-1903213-1083043,Race Completed
-SHEPPARTON (VIC),8,https://swiftbet.com.au//racing/greyhounds/shepparton/race-8-1903218-1083043,Race Completed
-SHEPPARTON (VIC),9,https://swiftbet.com.au//racing/greyhounds/shepparton/race-9-1903223-1083043,Race Completed
-SHEPPARTON (VIC),10,https://swiftbet.com.au//racing/greyhounds/shepparton/race-10-1903225-1083043,Race Completed
-SHEPPARTON (VIC),11,https://swiftbet.com.au//racing/greyhounds/shepparton/race-11-1903226-1083043,Race Completed
-SHEPPARTON (VIC),12,https://swiftbet.com.au//racing/greyhounds/shepparton/race-12-1903227-1083043,Race Completed
-RICHMOND (NSW),1,https://swiftbet.com.au//racing/greyhounds/richmond/race-1-1901586-1082913,Race Completed
-RICHMOND (NSW),2,https://swiftbet.com.au//racing/greyhounds/richmond/race-2-1901591-1082913,Race Completed
-RICHMOND (NSW),3,https://swiftbet.com.au//racing/greyhounds/richmond/race-3-1901601-1082913,Race Completed
-RICHMOND (NSW),4,https://swiftbet.com.au//racing/greyhounds/richmond/race-4-1901613-1082913,Race Completed
-RICHMOND (NSW),5,https://swiftbet.com.au//racing/greyhounds/richmond/race-5-1901629-1082913,Race Completed
-RICHMOND (NSW),6,https://swiftbet.com.au//racing/greyhounds/richmond/race-6-1901657-1082913,Race Completed
-RICHMOND (NSW),7,https://swiftbet.com.au//racing/greyhounds/richmond/race-7-1901677-1082913,Race Completed
-RICHMOND (NSW),8,https://swiftbet.com.au//racing/greyhounds/richmond/race-8-1901686-1082913,Race Completed
-RICHMOND (NSW),9,https://swiftbet.com.au//racing/greyhounds/richmond/race-9-1901696-1082913,Race Completed
-RICHMOND (NSW),10,https://swiftbet.com.au//racing/greyhounds/richmond/race-10-1901708-1082913,Race Completed
-RICHMOND (NSW),11,https://swiftbet.com.au//racing/greyhounds/richmond/race-11-1901717-1082913,1m 40s
-RICHMOND (NSW),12,https://swiftbet.com.au//racing/greyhounds/richmond/race-12-1901723-1082913,18m
-MANDURAH (WA),1,https://swiftbet.com.au//racing/greyhounds/mandurah/race-1-1901842-1082945,Race Completed
-MANDURAH (WA),2,https://swiftbet.com.au//racing/greyhounds/mandurah/race-2-1901852-1082945,Race Completed
-MANDURAH (WA),3,https://swiftbet.com.au//racing/greyhounds/mandurah/race-3-1901864-1082945,8m
-MANDURAH (WA),4,https://swiftbet.com.au//racing/greyhounds/mandurah/race-4-1901878-1082945,27m
-MANDURAH (WA),5,https://swiftbet.com.au//racing/greyhounds/mandurah/race-5-1901889-1082945,43m
-MANDURAH (WA),6,https://swiftbet.com.au//racing/greyhounds/mandurah/race-6-1901902-1082945,1h 0m
-MANDURAH (WA),7,https://swiftbet.com.au//racing/greyhounds/mandurah/race-7-1901912-1082945,1h 15m
-MANDURAH (WA),8,https://swiftbet.com.au//racing/greyhounds/mandurah/race-8-1901920-1082945,1h 38m
-MANDURAH (WA),9,https://swiftbet.com.au//racing/greyhounds/mandurah/race-9-1901925-1082945,1h 57m
-MANDURAH (WA),10,https://swiftbet.com.au//racing/greyhounds/mandurah/race-10-1901928-1082945,2h 13m
-MANDURAH (WA),11,https://swiftbet.com.au//racing/greyhounds/mandurah/race-11-1901931-1082945,2h 35m
+GEELONG (VIC),12,https://swiftbet.com.au//racing/greyhounds/geelong/race-12-1902880-1083009,Race Completed
 HEALESVILLE (VIC),1,https://swiftbet.com.au//racing/greyhounds/healesville/race-1-1903156-1083041,Race Completed
 HEALESVILLE (VIC),2,https://swiftbet.com.au//racing/greyhounds/healesville/race-2-1903163-1083041,Race Completed
 HEALESVILLE (VIC),3,https://swiftbet.com.au//racing/greyhounds/healesville/race-3-1903168-1083041,Race Completed
@@ -156,6 +132,18 @@ GAWLER (SA),6,https://swiftbet.com.au//racing/greyhounds/gawler/race-6-1901916-1
 GAWLER (SA),7,https://swiftbet.com.au//racing/greyhounds/gawler/race-7-1901922-1082948,Race Completed
 GAWLER (SA),8,https://swiftbet.com.au//racing/greyhounds/gawler/race-8-1901927-1082948,Race Completed
 GAWLER (SA),9,https://swiftbet.com.au//racing/greyhounds/gawler/race-9-1901929-1082948,Race Completed
+SHEPPARTON (VIC),1,https://swiftbet.com.au//racing/greyhounds/shepparton/race-1-1903172-1083043,Race Completed
+SHEPPARTON (VIC),2,https://swiftbet.com.au//racing/greyhounds/shepparton/race-2-1903180-1083043,Race Completed
+SHEPPARTON (VIC),3,https://swiftbet.com.au//racing/greyhounds/shepparton/race-3-1903188-1083043,Race Completed
+SHEPPARTON (VIC),4,https://swiftbet.com.au//racing/greyhounds/shepparton/race-4-1903198-1083043,Race Completed
+SHEPPARTON (VIC),5,https://swiftbet.com.au//racing/greyhounds/shepparton/race-5-1903205-1083043,Race Completed
+SHEPPARTON (VIC),6,https://swiftbet.com.au//racing/greyhounds/shepparton/race-6-1903209-1083043,Race Completed
+SHEPPARTON (VIC),7,https://swiftbet.com.au//racing/greyhounds/shepparton/race-7-1903213-1083043,Race Completed
+SHEPPARTON (VIC),8,https://swiftbet.com.au//racing/greyhounds/shepparton/race-8-1903218-1083043,Race Completed
+SHEPPARTON (VIC),9,https://swiftbet.com.au//racing/greyhounds/shepparton/race-9-1903223-1083043,Race Completed
+SHEPPARTON (VIC),10,https://swiftbet.com.au//racing/greyhounds/shepparton/race-10-1903225-1083043,Race Completed
+SHEPPARTON (VIC),11,https://swiftbet.com.au//racing/greyhounds/shepparton/race-11-1903226-1083043,Race Completed
+SHEPPARTON (VIC),12,https://swiftbet.com.au//racing/greyhounds/shepparton/race-12-1903227-1083043,Race Completed
 WARRAGUL (VIC),1,https://swiftbet.com.au//racing/greyhounds/warragul/race-1-1901819-1082941,Race Completed
 WARRAGUL (VIC),2,https://swiftbet.com.au//racing/greyhounds/warragul/race-2-1901824-1082941,Race Completed
 WARRAGUL (VIC),3,https://swiftbet.com.au//racing/greyhounds/warragul/race-3-1901830-1082941,Race Completed
@@ -179,6 +167,18 @@ GOULBURN (NSW),8,https://swiftbet.com.au//racing/greyhounds/goulburn/race-8-1901
 GOULBURN (NSW),9,https://swiftbet.com.au//racing/greyhounds/goulburn/race-9-1901738-1082927,Race Completed
 GOULBURN (NSW),10,https://swiftbet.com.au//racing/greyhounds/goulburn/race-10-1901744-1082927,Race Completed
 GOULBURN (NSW),11,https://swiftbet.com.au//racing/greyhounds/goulburn/race-11-1901748-1082927,Race Completed
+RICHMOND (NSW),1,https://swiftbet.com.au//racing/greyhounds/richmond/race-1-1901586-1082913,Race Completed
+RICHMOND (NSW),2,https://swiftbet.com.au//racing/greyhounds/richmond/race-2-1901591-1082913,Race Completed
+RICHMOND (NSW),3,https://swiftbet.com.au//racing/greyhounds/richmond/race-3-1901601-1082913,Race Completed
+RICHMOND (NSW),4,https://swiftbet.com.au//racing/greyhounds/richmond/race-4-1901613-1082913,Race Completed
+RICHMOND (NSW),5,https://swiftbet.com.au//racing/greyhounds/richmond/race-5-1901629-1082913,Race Completed
+RICHMOND (NSW),6,https://swiftbet.com.au//racing/greyhounds/richmond/race-6-1901657-1082913,Race Completed
+RICHMOND (NSW),7,https://swiftbet.com.au//racing/greyhounds/richmond/race-7-1901677-1082913,Race Completed
+RICHMOND (NSW),8,https://swiftbet.com.au//racing/greyhounds/richmond/race-8-1901686-1082913,Race Completed
+RICHMOND (NSW),9,https://swiftbet.com.au//racing/greyhounds/richmond/race-9-1901696-1082913,Race Completed
+RICHMOND (NSW),10,https://swiftbet.com.au//racing/greyhounds/richmond/race-10-1901708-1082913,Race Completed
+RICHMOND (NSW),11,https://swiftbet.com.au//racing/greyhounds/richmond/race-11-1901717-1082913,Race Completed
+RICHMOND (NSW),12,https://swiftbet.com.au//racing/greyhounds/richmond/race-12-1901723-1082913,Race Completed
 THE GARDENS (NSW),1,https://swiftbet.com.au//racing/greyhounds/the-gardens/race-1-1901597-1082920,Race Completed
 THE GARDENS (NSW),2,https://swiftbet.com.au//racing/greyhounds/the-gardens/race-2-1901607-1082920,Race Completed
 THE GARDENS (NSW),3,https://swiftbet.com.au//racing/greyhounds/the-gardens/race-3-1901626-1082920,Race Completed
@@ -215,24 +215,16 @@ HATRICK (NZL),9,https://swiftbet.com.au//racing/greyhounds/hatrick/race-9-190296
 HATRICK (NZL),10,https://swiftbet.com.au//racing/greyhounds/hatrick/race-10-1902962-1083016,Race Completed
 HATRICK (NZL),11,https://swiftbet.com.au//racing/greyhounds/hatrick/race-11-1902964-1083016,Race Completed
 HATRICK (NZL),12,https://swiftbet.com.au//racing/greyhounds/hatrick/race-12-1902966-1083016,Race Completed
-ALBION PARK (QLD),1,https://swiftbet.com.au//racing/harness/albion-park/race-1-1901957-1082952,Race Completed
-ALBION PARK (QLD),2,https://swiftbet.com.au//racing/harness/albion-park/race-2-1901963-1082952,Race Completed
-ALBION PARK (QLD),3,https://swiftbet.com.au//racing/harness/albion-park/race-3-1901973-1082952,Race Completed
-ALBION PARK (QLD),4,https://swiftbet.com.au//racing/harness/albion-park/race-4-1901980-1082952,Race Completed
-ALBION PARK (QLD),5,https://swiftbet.com.au//racing/harness/albion-park/race-5-1901986-1082952,Race Completed
-ALBION PARK (QLD),6,https://swiftbet.com.au//racing/harness/albion-park/race-6-1901991-1082952,Race Completed
-ALBION PARK (QLD),7,https://swiftbet.com.au//racing/harness/albion-park/race-7-1901993-1082952,Race Completed
-ALBION PARK (QLD),8,https://swiftbet.com.au//racing/harness/albion-park/race-8-1901997-1082952,3m 37s
 GLOUCESTER PARK (WA),1,https://swiftbet.com.au//racing/harness/gloucester-park/race-1-1901961-1082955,Race Completed
 GLOUCESTER PARK (WA),2,https://swiftbet.com.au//racing/harness/gloucester-park/race-2-1901969-1082955,Race Completed
 GLOUCESTER PARK (WA),3,https://swiftbet.com.au//racing/harness/gloucester-park/race-3-1901977-1082955,Race Completed
 GLOUCESTER PARK (WA),4,https://swiftbet.com.au//racing/harness/gloucester-park/race-4-1901985-1082955,Race Completed
 GLOUCESTER PARK (WA),5,https://swiftbet.com.au//racing/harness/gloucester-park/race-5-1901992-1082955,Race Completed
-GLOUCESTER PARK (WA),6,https://swiftbet.com.au//racing/harness/gloucester-park/race-6-1901996-1082955,13m
-GLOUCESTER PARK (WA),7,https://swiftbet.com.au//racing/harness/gloucester-park/race-7-1902000-1082955,38m
-GLOUCESTER PARK (WA),8,https://swiftbet.com.au//racing/harness/gloucester-park/race-8-1902002-1082955,1h 3m
-GLOUCESTER PARK (WA),9,https://swiftbet.com.au//racing/harness/gloucester-park/race-9-1902008-1082955,1h 33m
-GLOUCESTER PARK (WA),10,https://swiftbet.com.au//racing/harness/gloucester-park/race-10-1902010-1082955,2h 8m
+GLOUCESTER PARK (WA),6,https://swiftbet.com.au//racing/harness/gloucester-park/race-6-1901996-1082955,Race Completed
+GLOUCESTER PARK (WA),7,https://swiftbet.com.au//racing/harness/gloucester-park/race-7-1902000-1082955,Race Completed
+GLOUCESTER PARK (WA),8,https://swiftbet.com.au//racing/harness/gloucester-park/race-8-1902002-1082955,Race Completed
+GLOUCESTER PARK (WA),9,https://swiftbet.com.au//racing/harness/gloucester-park/race-9-1902008-1082955,22m
+GLOUCESTER PARK (WA),10,https://swiftbet.com.au//racing/harness/gloucester-park/race-10-1902010-1082955,57m
 GEELONG (VIC),1,https://swiftbet.com.au//racing/harness/geelong/race-1-1901587-1082914,Race Completed
 GEELONG (VIC),2,https://swiftbet.com.au//racing/harness/geelong/race-2-1901595-1082914,Race Completed
 GEELONG (VIC),3,https://swiftbet.com.au//racing/harness/geelong/race-3-1901600-1082914,Race Completed
@@ -267,6 +259,14 @@ WAGGA (NSW),5,https://swiftbet.com.au//racing/harness/wagga/race-5-1901853-10829
 WAGGA (NSW),6,https://swiftbet.com.au//racing/harness/wagga/race-6-1901856-1082943,Race Completed
 WAGGA (NSW),7,https://swiftbet.com.au//racing/harness/wagga/race-7-1901863-1082943,Race Completed
 WAGGA (NSW),8,https://swiftbet.com.au//racing/harness/wagga/race-8-1901870-1082943,Race Completed
+ALBION PARK (QLD),1,https://swiftbet.com.au//racing/harness/albion-park/race-1-1901957-1082952,Race Completed
+ALBION PARK (QLD),2,https://swiftbet.com.au//racing/harness/albion-park/race-2-1901963-1082952,Race Completed
+ALBION PARK (QLD),3,https://swiftbet.com.au//racing/harness/albion-park/race-3-1901973-1082952,Race Completed
+ALBION PARK (QLD),4,https://swiftbet.com.au//racing/harness/albion-park/race-4-1901980-1082952,Race Completed
+ALBION PARK (QLD),5,https://swiftbet.com.au//racing/harness/albion-park/race-5-1901986-1082952,Race Completed
+ALBION PARK (QLD),6,https://swiftbet.com.au//racing/harness/albion-park/race-6-1901991-1082952,Race Completed
+ALBION PARK (QLD),7,https://swiftbet.com.au//racing/harness/albion-park/race-7-1901993-1082952,Race Completed
+ALBION PARK (QLD),8,https://swiftbet.com.au//racing/harness/albion-park/race-8-1901997-1082952,Race Completed
 NEWCASTLE (NSW),1,https://swiftbet.com.au//racing/harness/newcastle/race-1-1901851-1082947,Race Completed
 NEWCASTLE (NSW),2,https://swiftbet.com.au//racing/harness/newcastle/race-2-1901859-1082947,Race Completed
 NEWCASTLE (NSW),3,https://swiftbet.com.au//racing/harness/newcastle/race-3-1901866-1082947,Race Completed
